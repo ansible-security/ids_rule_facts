@@ -1,0 +1,5 @@
+---
+- name: collect snort facts
+  snort_rule_facts:
+    filter: "{{ ids_rule_facts_filter|default(None)}}"
+  when: ids_provider == "snort"
