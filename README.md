@@ -1,7 +1,7 @@
 ids_rule_facts
 ===============
 
-# This content is currently under development and should not be considered production ready
+# Tech Preview
 
 An [Ansible](https://www.ansible.com/) role to collect facts about rules and
 signatures for many different Intrusion Detection Systems, these are defined as
